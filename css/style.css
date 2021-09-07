@@ -1,0 +1,135 @@
+#main{
+ display: inline-flex;
+ padding-left: 200px;
+
+}
+#div1{
+  width: 300px;
+   height: 300px;
+   /* background-color: crimson; */
+   margin: 15px;
+
+
+}
+
+#div2{
+    width: 300px;
+     height: 300px;
+     /* background-color: gold; */
+   margin: 15px;
+
+  
+  }
+  
+#div3{
+   width: 300px;
+    height: 300px;
+    /* background-color: black; */
+   margin: 15px;
+
+ 
+ }
+
+
+
+ #loading{
+
+  width: 200px;
+   height: 100px;
+  background-color: red;
+  animation: linear 10s myanimation;
+ }
+ @keyframes  myanimation{
+  from{
+    width: 300px;
+     background-color: green;
+
+  }
+to {
+  width: 1200px;
+  background-color: yellow;
+
+}
+ 
+
+ }
+
+
+ #main2{
+  display: inline-flex;
+   padding-left: 200px;
+
+ }
+
+
+ #box1{
+  width: 300px;
+   height: 300px;
+    background-color: red;
+     margin: 15px;
+     animation: linear 10s frankanimition;
+
+ }
+ 
+ #box2{
+  width: 300px;
+   height: 300px;
+    background-color: yellow;
+    margin: 15px;
+    animation: linear 10s frankanimition;
+
+
+ }
+ #box3{
+  width: 300px;
+   height: 300px;
+    background-color: green;
+   margin: 15px;
+   animation: linear 10s frankanimition;
+
+ }
+
+
+ @keyframes   frankanimition{
+  0%{
+
+    transform: rotate(30deg);
+  }
+   25%{
+    transform: rotate(60deg);
+
+
+   }
+   50%{
+    transform: rotate(120deg);
+
+
+   }
+   75%{
+     
+    transform: rotate(270deg);
+
+   }
+   100%{
+    transform: rotate(360deg);
+
+
+   }
+
+
+
+
+ /* from{
+  transform: rotate(90deg);
+
+ }
+  to{
+    transform: rotate(360deg);
+
+
+  } */
+
+
+ }
+
+
